@@ -1,0 +1,15 @@
+{% if cookiecutter.use_flake8 == "y" %}[flake8]
+max-line-length = 88
+extend-ignore = E203, W503
+exclude = 
+    .git,
+    __pycache__,
+    .venv,
+    venv,
+    .eggs,
+    *.egg,
+    build,
+    dist,
+    .mypy_cache,
+    .pytest_cache
+{% endif %}

@@ -1,0 +1,18 @@
+{
+  "package_name": "",
+  "package_slug": "{{ cookiecutter.package_name.lower().replace(' ', '_').replace('-', '_') }}",
+  "project_name": "{{ cookiecutter.package_name }}",
+  "description": "A short description of the package",
+  "author_name": "Patrick Sulin",
+  "author_email": "pjsulin@gmail.com",
+  "version": "0.1.0",
+  "license": ["MIT", "Apache-2.0", "BSD-3-Clause", "GPL-3.0"],
+  "python_requires": ">=3.8",
+  "use_black": ["y", "n"],
+  "use_isort": ["y", "n"],
+  "use_flake8": ["y", "n"],
+  "use_mypy": ["y", "n"],
+  "use_pytest": ["y", "n"],
+  "github_username": "isc-patrick",
+  "repository_url": "https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.package_slug }}"
+}
