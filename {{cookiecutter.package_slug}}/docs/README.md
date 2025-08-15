@@ -1,6 +1,6 @@
 ## Overview
 
-This directory contains the complete specification and design documents.
+This directory contains the implementation plan, specifications and design documents.
 
 ## Documentation Structure
 
