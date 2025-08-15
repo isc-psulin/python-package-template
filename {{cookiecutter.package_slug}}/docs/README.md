@@ -4,8 +4,7 @@ This directory contains the implementation plan, specifications and design docum
 
 ## Documentation Structure
 
-<package_root>/docs/
-                |
+<package_root>/docs
                 |- specs/
                 |- implementation.md
                 |- design.md 
