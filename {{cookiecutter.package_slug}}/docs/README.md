@@ -6,7 +6,7 @@ This directory contains the implementation plan, specifications and design docum
 
 <package_root>/docs/
                 |
-                |- specs
+                |- specs/
                 |- implementation.md
                 |- design.md 
 
